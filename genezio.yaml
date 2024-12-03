@@ -1,6 +1,6 @@
 frontend:
     path: ./
-    publish: .vercel/output/static 
+    publish: build
     scripts:
         build:
             - npm run build
